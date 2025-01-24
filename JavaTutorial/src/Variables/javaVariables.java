@@ -1,4 +1,4 @@
-package tutorialExcercises;
+package Variables;
 
 import java.util.Scanner;
 
