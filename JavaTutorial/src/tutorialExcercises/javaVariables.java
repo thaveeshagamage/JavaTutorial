@@ -1,4 +1,4 @@
-package Variables;
+package tutorialExcercises;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class javaVariables {
 		
 		Result = a + b ; //Calculate Result
 		
-		System.out.println("The Result is " + Result); //Print Final Result 
+		System.out.println("The final Result is " + Result); //Print Final Result 
 		scn.close();
 	}
 
