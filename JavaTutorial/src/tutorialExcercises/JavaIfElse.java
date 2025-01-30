@@ -24,7 +24,9 @@ public class JavaIfElse {
 		}
 		else {
 			System .out.println("Largest Number is " + Num2);
+		
 		}
+		sc.close();
 	
 	}
 	
