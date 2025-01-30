@@ -11,7 +11,7 @@ public class JavaSwitchStatement {
 		ex1 = sc.nextInt();
 		
 		switch (ex1) {
-			case 1 -> System.out.println("Monday");
+			case 1 ,10 -> System.out.println("Monday");
 					
 					
 			case 2 -> System.out.println("Tuesday");
