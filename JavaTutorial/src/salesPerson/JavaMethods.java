@@ -38,7 +38,7 @@ class SalesPerson{
 		Scanner scSeller = new Scanner(System.in);
 		System.out.println("What's the Book you want to Purchase?\n40 Pages \n80 Pages\n 180 Pages");
 		int pages = scSeller.nextInt();
-		scSeller.close();
+		//scSeller.close();
 		switch (pages) {
 		
 		case 40 -> {
