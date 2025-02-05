@@ -11,9 +11,22 @@ class SalesPerson{
 		int item = scSeller.nextInt();
 		//scSeller.close();
 		switch (item){
-		case 1 -> buyPen();
-		case 2 -> buyPencil();
-		case 3 -> buyBook();
+		case 1 -> {
+			String Pen = buyPen();
+			System.out.println("Return Value from buyPen Method \n " + Pen);
+
+		
+		}
+		case 2 -> {
+			String Pencil = buyPencil();
+			System.out.println("Return Value from buyPencil Method " + Pencil);
+
+		}
+		case 3 -> {
+			String Book = buyBook();
+			System.out.println("Return Value from buyBook Method " + Book);
+		
+		}
 		
 		
 			default-> System.out.println("Sorry I don't have that item with me");
@@ -25,6 +38,7 @@ class SalesPerson{
 		Scanner scSeller = new Scanner(System.in);
 		System.out.println("What's the Book you want to Purchase?\n40 Pages \n80 Pages\n 180 Pages");
 		int pages = scSeller.nextInt();
+		scSeller.close();
 		switch (pages) {
 		
 		case 40 -> {
@@ -62,7 +76,7 @@ class SalesPerson{
 		Scanner scSeller = new Scanner(System.in);
 		System.out.println("What's the Pencil you want to Purchase?\n HB \n 2B \n 3B");
 		String cbn = scSeller.nextLine();
-		//scPencil.close();
+		scSeller.close();
 		
 		
 		
