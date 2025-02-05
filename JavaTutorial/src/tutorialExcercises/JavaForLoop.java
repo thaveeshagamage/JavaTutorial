@@ -28,7 +28,7 @@ public class JavaForLoop {
 		}
 		
 		
-		
+		sc.close();
 	}
 
 }
